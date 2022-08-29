@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+}
+body{
+  box-sizing: border-box;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  background: pink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*card*/
+.card{
+  background: white;
+  box-shadow: 5px 5px 5px rgb(66, 56, 56, 55%);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 5px;
+  margin: 40% 0;
+  width: 550px;
+  height: 185px;
+}
+.card__first{
+  margin: 2% 5% 0 5%;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 95px;
+}
+ 
+.card__first svg{
+  width: 65px;
+  height: 55px;
+}
+.first__text{
+  padding: 5px;
+  text-align: center;
+}
+
+.card__second{
+  text-align: end;
+  padding-right: 5%;
+  margin-bottom: 5px; 
+}
+.second__author{
+  font-style: oblique;
+}
+.second__btnNext{
+  background: transparent;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.5em;
+  width: 33px;
+  margin: 5px 0;
+  padding: 5px 0;
+  cursor: pointer;
+}
